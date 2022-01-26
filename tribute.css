@@ -1,0 +1,164 @@
+* {
+  background-color: /*rgb(237, 237, 245)*/ #f0efeb;
+  padding: 0;
+  margin: 0;
+}
+nav {
+  position: sticky;
+}
+.navbar {
+  background-color: inherit;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  font-size: 17px;
+  font-family: "Georama", sans-serif;
+  height: 40px;
+  align-items: center;
+  position: sticky;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline;
+  margin: 10px 10px;
+  float: right;
+  position: sticky;
+}
+ul li a {
+  color: #121212;
+  text-decoration: none;
+  transition: 0.4s;
+  letter-spacing: 0.001em;
+  padding-bottom: 3px;
+}
+ul li a:hover {
+  text-transform: uppercase;
+  color: #121212;
+  letter-spacing: 0.01em;
+}
+header {
+  height: 450px;
+  filter: brightness(80%);
+  width: 100%;
+  /*background-image: url('https://media.istockphoto.com/photos/plasma-globe-picture-id701215398?b=1&k=20&m=701215398&s=170667a&w=0&h=7w2vbLn2FehFR56SZDukm7kE0mjyawQYoYZO4FBhySQ=');*/
+  background-image: url('https://media.istockphoto.com/photos/serbian-dinar-picture-id476081316?b=1&k=20&m=476081316&s=170667a&w=0&h=sVG8bJmHy8Onb5zLHi8JRsBTkYxYoTqvT986gbPc8Qw=');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  font-family: "Noto Sans", sans-serif;
+}
+header h1 {
+  font-family: "Georama", sans-serif;
+  padding: 20px;
+  font-size: 75px;
+  text-align: center;
+  color: #fff;
+  background-color: transparent;
+  filter: brightness(100%);
+}
+header p {
+  color: #fff;
+  font-style: italic;
+  font-family: "Georama", sans-serif;
+  text-align: center;
+  font-size: 19px;
+  background-color: transparent;
+  filter: brightness(100%);
+}
+.content {
+  margin: 50px 10em;
+  color: #3a3939;
+  font-size: 18px;
+  font-family: "Georama", sans-serif; 
+}
+.content h2 {
+  text-align: center;
+  line-height: 90px;
+}
+.content p {
+  text-align: justify;
+  line-height: 30px;
+}
+.content a {
+  color: #000;
+  line-height: 30px;
+  font-size: 16px;
+}
+.content a:hover {
+  font-style: italic;
+  color: #121212;
+  text-decoration: none;
+  line-height: 30px;
+  font-size: 16px;
+}
+#img-div img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  padding-bottom: 2em;
+}
+#img-div figcaption{
+  font-size: 12px; 
+  width: 100%;
+  margin: 0 auto 1em;
+  text-align: center;
+}
+#timeline {
+  height: 25em;
+  width: 35em;
+  margin: auto;
+  padding-bottom: 10em;
+}
+.timeline {
+  font-size: 1.0em;
+  font-family: "Georama", sans-serif;
+  color: #3a3939;
+  line-height: 20px;
+}
+#inventions {
+  font-family: "Georama", sans-serif;
+  color: #3a3939;
+}
+#inventions h1 {
+  text-align: center;
+  line-height: 60px;
+}
+#inventions p {
+  text-align: justify;
+  line-height: 25px;
+}
+#inventions h4 {
+  text-align: center;
+  line-height: 50px;
+}
+#inventions li {
+  margin: 20px 10em;
+  list-style: none;
+}
+.footer {
+  width: 100%;
+  color: #121212;
+  bottom: 0;
+  position: relative;
+  margin-top: 3em;
+}
+.footer p {
+  font-family: "Georama", sans-serif;
+  font-size: 12px;
+  text-align: left;
+  font-style: italic;
+  margin: 1em;
+}
+.footer ul {
+  font-size: 12px;
+  margin: 0 0 1em 2em;
+  text-align: left;
+}
